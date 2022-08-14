@@ -1,7 +1,8 @@
-package kazzak.kirill
+package kazzak.kirill.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kazzak.kirill.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
