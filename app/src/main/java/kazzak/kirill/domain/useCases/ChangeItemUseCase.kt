@@ -5,7 +5,7 @@ import kazzak.kirill.domain.ShopListRepository
 
 class ChangeItemUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun changeItem(shopItem: Int) {
+    fun changeItem(shopItem: ShopItem) {
         shopListRepository.changeItem(shopItem)
     }
 }
